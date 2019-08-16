@@ -1,0 +1,28 @@
+{
+  "name": "pennie-wilson-bot",
+  "version": "1.0.0",
+  "description": "Pennie Wilson Slackbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morecallan/pennie-wilson-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morecallan/pennie-wilson-bot/issues"
+  },
+  "homepage": "https://github.com/morecallan/pennie-wilson-bot#readme",
+  "dependencies": {
+    "@slack/events-api": "^2.3.0",
+    "@slack/web-api": "^5.1.0",
+    "express": "^4.17.1"
+  }
+}
