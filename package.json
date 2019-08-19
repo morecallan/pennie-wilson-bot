@@ -4,6 +4,9 @@
   "private": true,
   "author": "Callan Morrison <callan.l.morrison@gmail.com>",
   "description": "A simple helpful robot for your Company",
+  "scripts": {
+    "start": "bin/hubot -a slack"
+  },
   "dependencies": {
     "hubot": "^3.3.2",
     "hubot-diagnostics": "^1.0.0",
@@ -15,7 +18,8 @@
     "hubot-pugme": "^0.1.1",
     "hubot-redis-brain": "^1.0.0",
     "hubot-rules": "^1.0.0",
-    "hubot-shipit": "^0.2.1"
+    "hubot-shipit": "^0.2.1",
+    "hubot-slack": "^4.7.1"
   },
   "engines": {
     "node": "6"
